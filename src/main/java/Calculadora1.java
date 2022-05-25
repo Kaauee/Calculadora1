@@ -1,5 +1,6 @@
-package calculadora;
 
+
+import calculadora.Calculadora;
 import javax.swing.JOptionPane;
 
 public class Calculadora1 {
