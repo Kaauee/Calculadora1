@@ -31,7 +31,13 @@ public class TestCalculadora {
         assertEquals(retornoEsperado, retornoFeito);
     }
     
-    
+    @Test
+    public void testGetProduto() {
+        Calculadora calculadora = new Calculadora(4.0, 2.0);
+        double retornoEsperado = 8.0;
+        double retornoFeito = calculadora.getProduto();
+        assertEquals(retornoEsperado, retornoFeito);
+    }
     
     @Test
     public void testGetDivisao() {
