@@ -18,6 +18,8 @@
         <maven.compiler.source>1.8</maven.compiler.source>
         <maven.compiler.target>1.8</maven.compiler.target>
         <exec.mainClass>calculadora1.Calculadora1</exec.mainClass>
+        <sonar.organization>kaauee</sonar.organization>
+        <sonar.host.url>https://sonarcloud.io</sonar.host.url>
     </properties>
     <name>Calculadora</name>
     <build>
