@@ -11,7 +11,7 @@ public class Calculadora {
 
     public Calculadora(double valorA, double valorB) {
         setValorA(valorA);
-        setValorB(valorB);
+        setValorB(valorB) ;
     }
 
     public double getValorA() {
