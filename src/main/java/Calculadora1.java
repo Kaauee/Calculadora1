@@ -7,11 +7,11 @@ public class Calculadora1 {
 
     public static void main(String[] args) {
 
-        String opcao = "";
+        String opcao = ""; 
         Calculadora calculadora = new Calculadora();
 
         while (!opcao.equals("9")) {
-
+ 
             opcao = JOptionPane.showInputDialog("1 - Leitura \n2 - Soma \n3 - Subtracao\n4 - Produto \n5 - Divisao \n 9 - Sair");
             
             switch (Integer.parseInt(opcao)) {
