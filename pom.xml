@@ -20,6 +20,7 @@
         <exec.mainClass>calculadora1.Calculadora1</exec.mainClass>
         <sonar.organization>kaauee</sonar.organization>
         <sonar.host.url>https://sonarcloud.io</sonar.host.url>
+        <sonar.coverage.exclusions>**/*Principal.*</sonar.coverage.exclusions> 
     </properties>
     <name>Calculadora</name>
     <build>
